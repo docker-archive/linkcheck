@@ -46,6 +46,7 @@ var skipUrls = map[string]int{
 	"https://www.reddit.com/r/docker":                                   1,
 	"https://godoc.org/golang.org/x/crypto/ssh":                         1,
 	"https://letsencrypt.org/how-it-works/":                             1,
+	"https://support.docker.com":                                        1,
 }
 
 func crawl(chWork chan NewUrl, ch chan NewUrl, chFinished chan UrlResponse) {
