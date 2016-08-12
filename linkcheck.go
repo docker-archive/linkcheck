@@ -49,6 +49,7 @@ var skipUrls = map[string]int{
 	"https://cloud.google.com/compute/docs/disks/persistent-disks":                 1,
 	"https://godoc.org/github.com/docker/distribution/notifications#RequestRecord": 1,
 	"https://support.docker.com":                                                   1,
+	"https://www.weave.works/docs/net/latest/introducing-weave/":                   1,
 }
 
 func crawl(chWork chan NewUrl, ch chan NewUrl, chFinished chan UrlResponse) {
