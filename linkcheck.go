@@ -265,7 +265,7 @@ func main() {
 		200: "ok",
 		404: "forbidden",
 		403: "forbidden",
-		888: "http client failuer",
+		888: "http client failure",
 	}
 
 	// We're done! Print the results...
